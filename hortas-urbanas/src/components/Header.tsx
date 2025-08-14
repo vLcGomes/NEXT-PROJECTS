@@ -10,10 +10,11 @@ export default function Header() {
     text-emerald-800
     font-bold
     w-full
-    h-full
+    h-auto
     py-4
     px-6
     text-xl
+    fixed
     `}>
       <div className='flex gap-2 w-1/3 h-full'>
         <Image 
