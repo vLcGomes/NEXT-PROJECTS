@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -44,9 +45,9 @@ export default function Header() {
         h-12
         items-center
         `}>
-        <li>Inicio</li>
-        <li>Sobre</li>
-        <li>Contato</li>
+        <Link href='/'><li>Inicio</li></Link>
+        <Link href='/sobre'><li>Sobre</li></Link>
+        <Link href='/contato'><li>Contato</li></Link>
       </ul>
     </div>
   )
